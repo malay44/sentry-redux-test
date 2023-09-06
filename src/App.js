@@ -44,6 +44,13 @@ function App() {
             Redux Toolkit
           </a>
           ,<span> and </span>
+          <button
+            onClick={() => {
+              throw new Error("broke again, after no attachment");
+            }}
+          >
+            Break the world
+          </button>
           <a
             className="App-link"
             href="https://react-redux.js.org/"
